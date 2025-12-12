@@ -6,7 +6,7 @@ model = YOLO('yolo11n.pt')
 
 class_list = model.names
 
-cap = cv2.VideoCapture(0) 
+cap = cv2.VideoCapture(0, cv2.CAP_V4L2) 
 
 line_y_red = 430
 
