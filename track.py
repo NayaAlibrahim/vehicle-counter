@@ -6,7 +6,7 @@ model = YOLO('yolo11n.pt')
 
 class_list = model.names
 
-cap = cv2.VideoCapture('shared101/test_videos/4.mp4') #you should put the local location of your video recording depending on your preferences
+cap = cv2.VideoCapture(0) 
 
 line_y_red = 430
 
